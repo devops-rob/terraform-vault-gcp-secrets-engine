@@ -1,6 +1,10 @@
-# Vault GCP Secrets Engine Terraform Module
+# Terraform Module: Vault GCP Secrets Engine
 
-The GCP secrets engine Terraform module configures HashiCorp Vault secrets engine for GCP and the associated Vault roleset.  This module will enable operators to implement dynamic credential provisioning for their GCP environments.
+A Terraform module configures HashiCorp Vault secrets engine for GCP and the associated Vault roleset.  
+
+### Overview 
+
+This module will enable operators to implement dynamic credential provisioning for their GCP environments.
 
 ### GCP Requirements
 
@@ -58,3 +62,4 @@ module "gcp_defaults" {
   ]
 }
 ```
+
