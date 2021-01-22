@@ -1,6 +1,10 @@
 provider "vault" {
   address = "http://localhost:8200"
-  token   = "root"
+  token   = var.vault_token
+}
+
+variable "vault_token" {
+  description = "Set this value using the 'TF_VAR_vault_token' environment variable."
 }
 
 variable "project" {
