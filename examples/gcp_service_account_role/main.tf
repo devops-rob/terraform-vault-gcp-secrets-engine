@@ -13,7 +13,7 @@ variable "project" {
 }
 
 module "gcp_defaults" {
-  source = "../../"
+  source = "devops-rob/gcp-secrets-engine/vault"
 
   path             = "gcp"
   gcp_project      = var.project
