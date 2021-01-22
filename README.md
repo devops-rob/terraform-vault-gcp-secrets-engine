@@ -1,6 +1,6 @@
 # Terraform Module: Vault GCP Secrets Engine
 
-A Terraform module configures HashiCorp Vault secrets engine for GCP and the associated Vault roleset.  
+A Terraform module to configures HashiCorp Vault GCP secrets engine.  
 
 ## Overview 
 
